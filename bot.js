@@ -65,7 +65,7 @@ client.on('message', message => {
     let command = messageArray[0];
     
     
-    if (command === `${prefix}help1`) {
+    if (command === `${prefix}help`) {
       message.channel.send(`**تم الارسال في الخاص**`);
 			let embed = new Discord.RichEmbed()
                 .setColor('RANDOM')
